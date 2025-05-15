@@ -1,0 +1,41 @@
+Phase 0:
+- Project Setup
+- Create starter packages
+- Create a generalized plot and guideline
+- Generate a rough outline of desired game features
+
+Phase 1:
+- Create:
+    - Window
+    - Game Panel (JPanel) /runnable/ with "thread"
+    - Key Input /keyListener/
+    - Entity Base Class
+    - Player (Entity)
+    - Utility Package Setup
+    - Tile Generation
+    + Unit Tests
+- Should be able to have a controllable 'character' on a tile generated background
+- Outline desired features and methods on above classes to figure out further structuring
+- Writing - Plot development
+- Research:
+    - Plants
+    - Build a library of relevant scientific terms
+    - 
+
+Phase 2:
+- Create:
+    - Collision
+    - Basic Graphics
+    - File Loader -> load images
+    + Unit Tests
+    - Plant name generator as a side program?
+- Should have basic sprites and a few temporary tiles to test image loading, as well as collision testing with a variety of elements
+- Writing - work on plant compendium
+
+Phase 3:
+- Create:
+    - Plants Base Class
+    - Plants Record
+    - NPCs (Entity)
+    - Inventory
+    - Items Base Class
