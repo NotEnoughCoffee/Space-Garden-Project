@@ -1,21 +1,23 @@
 Phase 0:
-- Project Setup
-- Create starter packages
-- Create a generalized plot and guideline
-- Generate a rough outline of desired game features
+[X] Project Setup
+[X] Create starter packages
+[X] Create a generalized plot and guideline
+[/] Generate a rough outline of desired game features
+    -> requires planning on the go
 
 Phase 1:
 - Create:
-    - Window
-    - Game Panel (JPanel) /runnable/ with "thread"
-    - Key Input /keyListener/
-    - Entity Base Class
-    - Player (Entity)
+    [X] Window
+    [X] Game Panel (JPanel) /runnable/ with "thread"
+    [X] Key Input /keyListener/
+    [X] Entity Base Class
+    [X] Player (Entity)
     - Utility Package Setup
     - Tile Generation
     + Unit Tests
 - Should be able to have a controllable 'character' on a tile generated background
 - Outline desired features and methods on above classes to figure out further structuring
+- Continue working on overall outline of game features and other elements through further development
 - Writing - Plot development
 - Research:
     - Plants
@@ -23,6 +25,7 @@ Phase 1:
     - 
 
 Phase 2:
+- First Branch: Graphics and Collision
 - Create:
     - Collision
     - Basic Graphics

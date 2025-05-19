@@ -1,0 +1,27 @@
+Ideas to consider for production:
+
+
+//Game Loop Considerations//
+- need to keep player engaged with farming, but limit them, so they can't just do everything in one day in a way that isn't taxing or grind-y
+    - players are already limited by growth cycle, but plot size? (will be limited to begin with but player will have access to lots of plots)
+    - make day night cycle instead a 3 part day with morning afternoon and night, and players can only do 3 actions per day
+            - players could only choose to visit one plot per day (or one plot per action)
+            - exploration could count as 1-3 actions (or rest of current day, with benefits for leaving early and losing the rest of the day's actions)
+                - these should take 1-several days to allow players plants grow time
+    - maybe instead, make any obtained fruits/etc. spoil over time, (perhaps only so much can be sold because of limited vendor trade ability) so it would encourage players to not go too hard too fast. Otherwise, you could end up without any plants you are able to grow
+        - or perhaps there's a town's food stores that can hold only so much, some can be reserved and used for research, but leftovers that cant be stored or used for research gets auto-composted at the end of the 'day'
+        - could open ability to have losing condition for not keeping the town fed for like 3-4+ days (food stores empty)
+            -> plants could have various growing times, so as long as you find or have access to seeds that will grow that quickly. (like if all earth plants took one day, players could find out the hard way by planting everything, overfilling the stores, and then scrambling to find food a few days later looking for edible plants to grow (going for: avoidable if moderation is used)
+
+//Farming//
+- Highlight which tile is 'selected' when inside the bounds of a farming plot based on center point of character on direction facing
+
+
+//Inventory//
+- make tools and outfits have their own specific equip spots to not waste inventory space.
+    - tools won't be degradable, and will only be direct upgrades (using the previous level tool in the upgrade process)
+    - if there are 'alternates' of any tools, they will be stored in a tool shed the player has to physically visit to change out gear. (or accessible universally in town)
+- to provide some kind of challenge, inventory space needs to be limited as well as item stack sizes
+    + ability to increase inventory through gameplay some
+- I do not want to make inventory management a crazy element of the game, so this needs to be mitigated to ensure mechanic is a challenge but not sole-sucking non-stop inventory management like fallout.
+    + to achieve this, it could be inventory is only limited on expeditions? only so much you can carry back, so you have to prioritize, but also accessible universally in town
